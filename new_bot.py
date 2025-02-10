@@ -98,7 +98,7 @@ root.geometry("500x600")
 root.resizable(width=False, height=False)
 
 # Chat Window
-chat_box = Text(root, bd=0, bg="White", height="8", width="50",
+chat_box = Text(root, bd=0, bg="White", height="8", width="55",
                 font=("Arial", 12))
 chat_box.config(state=DISABLED)
 
