@@ -1,0 +1,569 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good evening",
+        "Greetings",
+        "Hey, how's it going?",
+        "Hi, how are you doing?",
+        "Hi! What's new?",
+        "Hello! Anyone there?",
+        "How's it going?",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there, how can I assist you?",
+        "Hey! Good to see you.",
+        "Greetings! How can I help today?",
+        "Hi! What's on your mind?"
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting with you, bye",
+        "Till next time",
+        "quit",
+        "Farewell",
+        "I'm off",
+        "Catch you later",
+        "See you soon",
+        "Take care",
+        "Peace out",
+        "Later!",
+        "Talk to you later",
+        "Bye bye",
+        "Good night",
+        "I'm heading out",
+        "Time to go",
+        "See ya",
+        "Goodbye for now"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you soon!",
+        "It was great talking to you, bye!",
+        "Catch you later!",
+        "Take care, come back anytime.",
+        "Bye! Have a great day ahead."
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Much appreciated",
+        "Thanks a lot",
+        "Thank you very much",
+        "I appreciate it",
+        "You're the best",
+        "Thanks for your help",
+        "Many thanks",
+        "Thanks a bunch",
+        "Thanks so much",
+        "Big thanks",
+        "Grateful for your help"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Glad I could help!",
+        "No problem at all!",
+        "Happy to assist!",
+        "Anytime, you're welcome!",
+        "It's my pleasure."
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "Punjab_University",
+      "patterns": [
+        "What is Punjab University",
+        "Tell me about Punjab University",
+        "Can you give me information on Punjab University?",
+        "What is Punjab University's ranking?",
+        "Is Punjab University good?",
+        "Where is Punjab University located?",
+        "What courses does Punjab University offer?",
+        "Can you describe Punjab University?",
+        "Punjab University info please",
+        "What is the history of Punjab University?",
+        "How is the campus at Punjab University?",
+        "What makes Punjab University unique?",
+        "How is the research facility at Punjab University?"
+      ],
+      "responses": [
+        "Punjab University is a renowned institution in India, excelling in various fields of study and consistently ranked among the top universities in the state of Punjab.",
+        "Punjab University is one of India's top educational institutions, offering a wide range of programs across multiple disciplines.",
+        "Located in Chandigarh, Punjab University is known for its prestigious faculty, excellent academic programs, and state-of-the-art facilities.",
+        "Punjab University is celebrated for its vibrant student life and strong emphasis on research and innovation."
+      ],
+      "context": [
+        "Punjab_University_Information"
+      ]
+    },
+    {
+      "tag": "login_greeting",
+      "patterns": [
+        "I just logged in",
+        "I have logged in",
+        "I am logged in",
+        "Just logged in",
+        "I have successfully logged in",
+        "I'm now logged in",
+        "Login successful",
+        "Just signed in",
+        "I signed in just now",
+        "I'm signed in"
+      ],
+      "responses": [
+        "Welcome back! How can I assist you today? Do you have any questions or need help with the menu or facilities?",
+        "Great! How can I assist you today? Feel free to ask about available features, menus, or other services.",
+        "Hi again! Let me know if you need any help navigating."
+      ],
+      "context": [
+        "user_logged_in"
+      ]
+    },
+    {
+      "tag": "canteen_guide",
+      "patterns": [
+        "Can you guide me?",
+        "What are the options?",
+        "I need help",
+        "Show me the menu",
+        "What's available in the canteen?",
+        "Tell me what's available in the canteen",
+        "What's on today's canteen menu?",
+        "What can I eat in the canteen?",
+        "Show me today's canteen menu",
+        "Guide me about the canteen options",
+        "What's the special in the canteen today?",
+        "Can I get a vegetarian meal in the canteen?",
+        "Is there any discount in the canteen?"
+      ],
+      "responses": [
+        "I am here to assist you! You can ask me about today's menu, food prices, meal timings, or any other information about the canteen.",
+        "Today's canteen menu includes various meals and snacks. You can ask me for specific items or food timings.",
+        "You can choose from a variety of options including snacks, drinks, and full meals. Let me know if you want to see the menu."
+      ],
+      "context": [
+        "canteen_assistance"
+      ]
+    },
+    {
+      "tag": "mess_guide",
+      "patterns": [
+        "Can you guide me to the mess?",
+        "What is on today's mess menu?",
+        "I need help with the mess",
+        "Show me the mess options",
+        "What's available in the mess?",
+        "What are the available meals in the mess?",
+        "Can you show me what's on the mess menu?",
+        "What can I eat in the mess?",
+        "Help me with the mess details",
+        "What time is breakfast in the mess?",
+        "Is the mess open for dinner?",
+        "What are the timings for the mess today?",
+        "Is there a special dish in the mess today?"
+      ],
+      "responses": [
+        "Sure! In the mess, we offer a variety of options. You can ask me about today's meals, meal timings, special dishes, or any other information related to the mess.",
+        "Today’s mess menu features a variety of meals. Ask me for specific details, meal timings, or special dishes being served.",
+        "The mess serves breakfast, lunch, and dinner at scheduled times. Feel free to ask about the current menu or special dishes available."
+      ],
+      "context": [
+        "mess_assistance"
+      ]
+    },
+    {
+      "tag": "food_feedback",
+      "patterns": [
+        "Food feedback",
+        "I want to give feedback about food",
+        "How was the food?",
+        "Can I rate the food?",
+        "I want to comment on the food",
+        "Raise a concern about the food",
+        "I have an issue with the food"
+      ],
+      "responses": [
+        "Would you like to rate the food, comment on the food, or raise a concern about the food?"
+      ],
+      "context": [
+        "food_feedback_context"
+      ]
+    },
+    {
+      "tag": "rate_food",
+      "patterns": [
+        "Rate the food",
+        "I want to rate the food",
+        "Can I rate?",
+        "Let me rate the food",
+        "Food rating"
+      ],
+      "responses": [
+        "Please rate the food: Best, Good, Normal, or Bad."
+      ],
+      "context": [
+        "rate_food_context"
+      ]
+    },
+    {
+      "tag": "food_rating_best_good",
+      "patterns": [
+        "Best",
+        "Good",
+        "Best, Good",
+        "Good, Best"
+      ],
+      "responses": [
+        "Thank you for your feedback!"
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "food_rating_normal",
+      "patterns": [
+        "Normal",
+        "It's okay",
+        "Average"
+      ],
+      "responses": [
+        "We will report this feedback to the faculty to improve the food quality."
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "food_rating_bad",
+      "patterns": [
+        "Bad",
+        "Terrible",
+        "Awful"
+      ],
+      "responses": [
+        "Sorry about your experience. Would you like to raise this concern to all users about the food?"
+      ],
+      "context": [
+        "raise_concern_context"
+      ]
+    },
+    {
+      "tag": "food_comment",
+      "patterns": [
+        "Comment on food",
+        "I want to comment on the food",
+        "Can I leave a comment?",
+        "Share my thoughts about food"
+      ],
+      "responses": [
+        "Please describe your food experience. How was your meal?"
+      ],
+      "context": [
+        "comment_food_context"
+      ]
+    },
+    {
+      "tag": "raise_food_concern",
+      "patterns": [
+        "Raise a concern about food",
+        "Alert everyone about food",
+        "Raise a food issue",
+        "Can I raise a concern about the food?"
+      ],
+      "responses": [
+        "Your concern has been noted and will be added to the database. Thank you for sharing!"
+      ],
+      "context": [
+        "none"
+      ]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": [
+        "Tell me about the faculty members",
+        "Who are the professors at Punjab University?",
+        "What faculty is teaching?",
+        "Can you provide details on the faculty?",
+        "Which professors are in the engineering department?",
+        "Who are the best professors at Punjab University?",
+        "Can I get a list of faculty in the computer science department?",
+        "Who teaches the MBA program?",
+        "What faculty is handling the research division?",
+        "How experienced are the professors?"
+      ],
+      "responses": [
+        "Punjab University has a distinguished faculty with experts in various fields. You can ask about specific departments or professors.",
+        "The faculty members at Punjab University are highly qualified with extensive academic and industry experience. Feel free to inquire about any specific department.",
+        "Punjab University boasts an exceptional faculty with a wide range of expertise across disciplines, including engineering, sciences, humanities, and business."
+      ],
+      "context": [
+        "faculty_information"
+      ]
+    },
+    {
+      "tag": "course_info",
+      "patterns": [
+        "Tell me about the available courses",
+        "What courses does Punjab University offer?",
+        "What programs are available?",
+        "Give me information on courses",
+        "Which courses are open for enrollment?",
+        "What undergraduate courses are available?",
+        "What postgraduate programs are offered?",
+        "What PhD programs are available at Punjab University?",
+        "Can I get details on engineering courses?",
+        "What courses are available in the management department?",
+        "Are there any diploma programs available?"
+      ],
+      "responses": [
+        "Punjab University offers a wide range of undergraduate, postgraduate, and doctoral programs. You can ask about specific departments or disciplines.",
+        "We offer a variety of programs, including Bachelors, Masters, and PhD courses across multiple disciplines like Engineering, Arts, Science, and Management.",
+        "You can explore a broad selection of courses including undergraduate and postgraduate degrees in fields like Computer Science, Mechanical Engineering, Physics, Economics, and more."
+      ],
+      "context": [
+        "course_information"
+      ]
+    },
+    {
+      "tag": "admission_info",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "Tell me about the admission criteria",
+        "How do I apply for Punjab University?",
+        "What are the admission requirements?",
+        "What documents are needed for admission?",
+        "When is the admission deadline?",
+        "What is the eligibility for admission?",
+        "Can I apply online for admission?",
+        "What is the fee for the application?",
+        "Do I need an entrance exam for admission?",
+        "What is the admission test for engineering?",
+        "When is the admission test conducted?"
+      ],
+      "responses": [
+        "To apply for Punjab University, you need to meet the eligibility criteria for your chosen program. You can visit the official website for details on the admission process.",
+        "Admission to Punjab University is based on entrance exams, previous academic performance, and eligibility criteria. For more details, visit the admissions section on the official website.",
+        "The admission process typically involves submitting an online application, followed by entrance exams for specific programs. The detailed process is available on the university's website."
+      ],
+      "context": [
+        "admission_information"
+      ]
+    },
+    {
+      "tag": "Vachas",
+      "patterns": [
+        "Who is Vachas",
+        "Team Leader"
+      ],
+      "responses": [
+        "Vachas is the team leader of the group project. He leads the team and is currently contributing to the development of frontend and backend pages and designing."
+      ],
+      "context": [
+        "team_information"
+      ]
+    },
+    {
+      "tag": "Pranav",
+      "patterns": [
+        "Who is Pranav",
+        "Exceptional Skilled Member"
+      ],
+      "responses": [
+        "Pranav is an exceptionally skilled member of the project team. He is a full-stack developer and is currently contributing to building internal frontend pages like the admin page."
+      ],
+      "context": [
+        "team_information"
+      ]
+    },
+    {
+      "tag": "Dhruv",
+      "patterns": [
+        "Who is Dhruv?",
+        "Tell me about Dhruv",
+        "What does Dhruv do?",
+        "Member Dhruv details",
+        "Who is Dhruv in the team?",
+        "Can you describe Dhruv?"
+      ],
+      "responses": [
+        "Dhruv is a member of the Alpha Project team. His participation in the project has been minimal but, often contributing as assistance.",
+        "Supporting Member"
+      ],
+      "context": [
+        "team_information"
+      ]
+    },
+    {
+      "tag": "Krishna",
+      "patterns": [
+        "Who is Krishna",
+        "AI/ML Dev",
+        "Talented person",
+        "Tell me about Krishna"
+      ],
+      "responses": [
+        "Krishna is a talented member of the project team, specializing in AI/ML development. He is currently working on this demo chatbot that will be integrated into the project in the future."
+      ],
+      "context": [
+        "team_information"
+      ]
+    },
+    {
+      "tag": "future_flow_work",
+      "patterns": [
+        "What is future development",
+        "What is future integration",
+        "What is future updation",
+        "What is further WorkFlow"
+      ],
+      "responses": [
+        "The group will continue enhancing the frontend over time. Vachas and Pranav will begin backend development, while Krishna will focus on improving the chatbot and developing other AI/ML models, such as a suggestion system for mess and canteen products. They will also explore additional features and integrations using AI and ML. As for Dhruv, while his involvement has been minimal so far, there's hope that he may contribute more actively after receiving guidance from our mentors, if not Shameless."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "canteen_menu_monday",
+      "patterns": ["What is the Monday canteen menu?", "What's served in the canteen on Monday?", "Canteen food on Monday"],
+      "responses": ["Monday's canteen menu includes Veg Biryani, Paneer Tikka, Naan, and Cold Drink."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_tuesday",
+      "patterns": ["What is the Tuesday canteen menu?", "What's served in the canteen on Tuesday?", "Canteen food on Tuesday"],
+      "responses": ["Tuesday's canteen menu includes Rajma Chawal, Chapati, Salad, and Buttermilk."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_wednesday",
+      "patterns": ["What is the Wednesday canteen menu?", "What's served in the canteen on Wednesday?", "Canteen food on Wednesday"],
+      "responses": ["Wednesday's canteen menu includes Chole Bhature, Fruit Salad, and Ice Cream."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_thursday",
+      "patterns": ["What is the Thursday canteen menu?", "What's served in the canteen on Thursday?", "Canteen food on Thursday"],
+      "responses": ["Thursday's canteen menu includes Pulao, Dal Tadka, and Sweet Dish."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_friday",
+      "patterns": ["What is the Friday canteen menu?", "What's served in the canteen on Friday?", "Canteen food on Friday"],
+      "responses": ["Friday's canteen menu includes Fried Rice, Manchurian, and Lemonade."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_saturday",
+      "patterns": ["What is the Saturday canteen menu?", "What's served in the canteen on Saturday?", "Canteen food on Saturday"],
+      "responses": ["Saturday's canteen menu includes Pav Bhaji, Masala Dosa, and Gulab Jamun."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "canteen_menu_sunday",
+      "patterns": ["What is the Sunday canteen menu?", "What's served in the canteen on Sunday?", "Canteen food on Sunday"],
+      "responses": ["Sunday's canteen menu includes Aloo Paratha, Curd, and Jalebi."],
+      "context": ["canteen_day_menu"]
+    },
+    {
+      "tag": "mess_menu_monday",
+      "patterns": ["What is the Monday mess menu?", "What's in the mess for Monday?", "Mess food on Monday"],
+      "responses": ["Monday's mess menu: Breakfast: Poha, Tea/Coffee | Lunch: Dal Makhani, Rice, Salad | Dinner: Roti, Mixed Veg."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_tuesday",
+      "patterns": ["What is the Tuesday mess menu?", "What's in the mess for Tuesday?", "Mess food on Tuesday"],
+      "responses": ["Tuesday's mess menu: Breakfast: Bread Omelette | Lunch: Chole Bhature | Dinner: Rajma Rice."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_wednesday",
+      "patterns": ["What is the Wednesday mess menu?", "What's in the mess for Wednesday?", "Mess food on Wednesday"],
+      "responses": ["Wednesday's mess menu: Breakfast: Idli Sambhar | Lunch: Kadhai Paneer, Naan | Dinner: Dal Tadka, Jeera Rice."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_thursday",
+      "patterns": ["What is the Thursday mess menu?", "What's in the mess for Thursday?", "Mess food on Thursday"],
+      "responses": ["Thursday's mess menu: Breakfast: Paratha with Pickle | Lunch: Aloo Gobhi, Rice | Dinner: Roti, Chicken Curry."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_friday",
+      "patterns": ["What is the Friday mess menu?", "What's in the mess for Friday?", "Mess food on Friday"],
+      "responses": ["Friday's mess menu: Breakfast: Cornflakes with Milk | Lunch: Pulao, Raita | Dinner: Veg Kofta, Chapati."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_saturday",
+      "patterns": ["What is the Saturday mess menu?", "What's in the mess for Saturday?", "Mess food on Saturday"],
+      "responses": ["Saturday's mess menu: Breakfast: Veg Sandwich | Lunch: Dal Chawal, Bhindi Fry | Dinner: Pulao, Paneer Tikka."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "mess_menu_sunday",
+      "patterns": ["What is the Sunday mess menu?", "What's in the mess for Sunday?", "Mess food on Sunday"],
+      "responses": ["Sunday's mess menu: Breakfast: Aloo Paratha, Lassi | Lunch: Fried Rice, Manchurian | Dinner: Roti, Shahi Paneer."],
+      "context": ["mess_day_menu"]
+    },
+    {
+      "tag": "query",
+      "patterns": [
+        "Can you answer my question?",
+        "I need assistance",
+        "I have a question",
+        "What if you can't answer?",
+        "Help me with my question",
+        "I want to ask something",
+        "Can you assist me with inquiries?",
+        "I'm unsure about something",
+        "I need information",
+        "Can I ask a question?",
+        "What should I do if my question isn't answered?",
+        "Can you connect me to someone for help?",
+        "I have a query"
+      ],
+      "responses": [
+        "I'm here to assist you! If I can't answer your question, I'll connect you to someone who can help.",
+        "If I can't provide an answer right away, I'll make sure to contact someone who can assist you.",
+        "Feel free to ask anything! If I don't know the answer, I can help connect you to the right person."
+      ],
+      "context": [
+        "query_assistance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome to the Mess/Canteen Portal</h2>
+        <form action="login" method="POST">
+            <label for="role">Select Role:</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="canteen_incharge">Canteen Incharge</option>
+                <option value="mess_incharge">Mess Incharge</option>
+            </select>
+            <br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

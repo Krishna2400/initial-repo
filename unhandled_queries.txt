@@ -1,0 +1,28 @@
+hello
+thankyou
+python -u "c:\Users\Krishna\OneDrive\Desktop\code\PYTHON\ChatBot\ChatBot\new.py"
+hello
+quit
+give another response
+give another response
+python -u "c:\Users\Krishna\OneDrive\Desktop\code\PYTHON\ChatBot\ChatBot\chatbotparas.py"
+hi
+hello
+python -u "c:\Users\Krishna\OneDrive\Desktop\code\PYTHON\ChatBot\ChatBot\new.py"
+give another responseDhruv
+Dhruv
+hi
+Hi
+hello
+hi
+dhruv
+vachas
+hi
+python -u "c:\Users\Krishna\OneDrive\Desktop\code\PYTHON\ChatBot\ChatBot\NEWmodel.py"
+food feedback
+what is made today
+food feedback
+breakfast
+feedback
+raise concern
+python -u "c:\Users\Krishna\OneDrive\Desktop\code\PYTHON\ChatBot\ChatBot\NEWmodel.py"
